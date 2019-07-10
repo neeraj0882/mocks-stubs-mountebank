@@ -1,0 +1,13 @@
+"responses": [
+{
+"inject": "<%-stringify(filename, '../ResponseInjection/GetTransaction.js') %>"
+}
+],
+"predicates": [
+{
+"matches": {
+"method" : "GET",
+"path" : "/Transactions"
+}
+}
+]

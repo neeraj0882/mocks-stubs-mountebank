@@ -1,0 +1,10 @@
+{
+"port": 2527,
+"protocol": "https",
+"mutualAuth": false,
+"stubs": [
+{
+<% include server2.json %>
+}
+]
+}

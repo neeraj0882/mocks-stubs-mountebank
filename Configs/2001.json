@@ -1,1 +1,13 @@
-
+{
+"port": 2001,
+"protocol": "http",
+"recordRequests": true,
+"stubs": [
+{
+<% include TransactionResponse.json %>
+},
+{
+<% include Transaction.json %>
+}
+]
+}

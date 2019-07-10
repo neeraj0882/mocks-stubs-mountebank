@@ -1,0 +1,9 @@
+"responses": [
+  {
+    "proxy": {
+      "to": "https://server1",
+      "mode": "proxyAlways",
+      "predicateGenerators": [{ "matches": {"path":true,"body":true},"except":"<SubmitMemberFlexiPensionWithdrawalRequest xmlns=\"http://www.unisuper.com.au/services/memberaccount/1.0.0/\">([\\s\\S]*?)</SubmitMemberFlexiPensionWithdrawalRequest>|<SubmitRolloverInRequest xmlns=\"http://www.unisuper.com.au/mol/service/memberonlinerolloversvc/2.0.0/\">([\\s\\S]*?)</SubmitRolloverInRequest>|<EndDate>([\\s\\S]*?)</EndDate>|<MessageIdentifier xmlns=\"http://www.unisuper.com.au/mol/service/messagebasetypes/1.0.0/\">([\\s\\S]*?)</MessageIdentifier>|<MessageTimeStamp>([\\s\\S]*?)</MessageTimeStamp>|<MessageIdentifier>([\\s\\S]*?)</MessageIdentifier>|<MessageTimeStamp>([\\s\\S]*?)</MessageTimeStamp>|<DocumentDetails>([\\s\\S]*?)</DocumentDetails>"}],
+      "injectHeaders":{"Accept-Encoding":"identity"}
+  }
+  }]

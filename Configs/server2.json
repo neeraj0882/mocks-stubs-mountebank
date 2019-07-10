@@ -1,0 +1,7 @@
+"responses": [{
+    "proxy": {
+      "to": "https://server2",
+      "mode": "proxyAlways",
+      "predicateGenerators": [{ "matches": {"body":true,"path":true},"except":"<RetrieveMemberInsuranceRequest xmlns=\"http://services.unisuper.com.au/\" xmlns:a=\"http://www.unisuper.com.au/services/enquiry/memberaccount/1.0.0/\" xmlns:i=\"http://www.w3.org/2001/XMLSchema-instance\">([\\s\\S]*?)</RetrieveMemberInsuranceRequest>|<a:MessageIdentifier>([\\s\\S]*?)</a:MessageIdentifier>|<a:MessageTimeStamp>([\\s\\S]*?)</a:MessageTimeStamp>|<a:BankAccountName>([\\s\\S]*?)</a:BankAccountName>"}]
+    }
+  }]
