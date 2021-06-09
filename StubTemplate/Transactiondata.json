@@ -5,17 +5,15 @@
 "data":
 {
     "AccountCategory" : "D",
-    "AccountNumber" : "269423",
-    "Amount" : 602,
-    "ConcessionalApplicableFlag" : true,
-    "ConcessionalFlag" : true,
+    "AccountNumber" : "2222222",
+    "Amount" : 10000,
     "EffectiveDate" : "2018-05-08T00:00:00",
-    "MemberNumber" : 13849203,
+    "MemberNumber" : 11111111,
     "ProductType" : "SuperMember",
-    "TransactionID" : 29404732,
-    "TransactionReference" : 29404732,
-    "TransactionType" : "Super",
+    "TransactionID" : 212121212,
+    "TransactionReference" : 292929292,
+    "TransactionType" : "Payment",
     "TransactionGrouping" : "PAYMENTS",
-    "TransactionDescription" : "External Insurance"
+    "TransactionDescription" : "Transaction Type A"
 }
 }
